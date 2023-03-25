@@ -49,6 +49,14 @@ Endpoints will return a ```401``` status code if the authorisation token provide
 
 | Subject | Description |
 | ------- | ----------- |
+| [Asset managers](asset-managers.md) | List of asset managers that you have access to |
+| [NAVs](navs.md) | Allows access to NAV values |
 | [Related documents](related-documents.md) | Documents related to a share class, fund, sub-fund or asset manager |
 
+# Paging
 
+Some endpoints can return large quantities of data and employ paging to reduce the size of individual API calls. If an endpoint returns a URL in the ```links.next``` field then the data has been paged and you should use the URL to fetch the next page of data. Repeat this until ```links.next``` is null or empty.
+
+# Format of JSON from the API
+
+Most of the API endpoints return data in a reduced [JSON:API](https://jsonapi.org/) format. 
