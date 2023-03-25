@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document is intended for developers who want to write applications that interact with Dataglide. It explains basic concepts of Dataglide and of the API itself. It also provides an overview of the different functions that the API supports. Currently the Dataglide API only allows read access to data.
+This repository is intended for developers who want to write applications that interact with Dataglide. It contains documents that explain the basic concepts of Dataglide and of the API itself. It also provides an overview of the different functions that the API supports. Currently the Dataglide API only allows read access to data.
 
 ## Accessing the API
 
