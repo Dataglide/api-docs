@@ -45,7 +45,7 @@ This will return you a new token with an extended expiry date/time.
 
 Endpoints will return a ```401``` status code if the authorisation token provided is missing, invalid or expired. If you application runs for an extended period then you should regularly refresh your access token. If your application receives a 401 response then you should re-authenticate to fetch a new valid token - it is not possible to refresh an expired token. 
 
-# Endpoints
+## Endpoints
 
 | Subject | Description |
 | ------- | ----------- |
@@ -53,10 +53,10 @@ Endpoints will return a ```401``` status code if the authorisation token provide
 | [NAVs](navs.md) | Allows access to NAV values |
 | [Related documents](related-documents.md) | Documents related to a share class, fund, sub-fund or asset manager |
 
-# Paging
+## Paging
 
 Some endpoints can return large quantities of data and employ paging to reduce the size of individual API calls. If an endpoint returns a URL in the ```links.next``` field then the data has been paged and you should use the URL to fetch the next page of data. Repeat this until ```links.next``` is null or empty.
 
-# Format of JSON from the API
+## Format of JSON from the API
 
 Most of the API endpoints return data in a reduced [JSON:API](https://jsonapi.org/) format. 
