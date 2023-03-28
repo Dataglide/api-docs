@@ -14,7 +14,7 @@ Access to the Parallel environment is available at: ```https://api.parallel.data
 
 ## Authorisation
 
-In order to use the Dataglide API your application will need to fetch an authorisation token. This token can then be used to access other resources in the Dataglide API. Dataglide authorisation tokens are standard JWT tokens that are very widely supported with libraries available for most modern programming languages. More information on JWT tokens can be found [here](https://en.wikipedia.org/wiki/JSON_Web_Token).
+In order to use the Dataglide API your application will need to fetch an authorisation token. This token can then be used to access other resources in the Dataglide API. Dataglide authorisation tokens are standard JWT tokens that are very widely supported with libraries available for most modern programming languages. More information on JWT tokens can be found [here](https://en.wikipedia.org/wiki/JSON_Web_Token) and [here](https://jwt.io/).
 
 To fetch an authorisation token POST your credentials to this endpoint:
 
@@ -49,9 +49,9 @@ Endpoints will return a ```401``` status code if the authorisation token provide
 
 | Subject | Description |
 | ------- | ----------- |
-| [Asset managers](asset-managers.md) | List of asset managers that you have access to |
-| [NAVs](navs.md) | Allows access to NAV values |
-| [Related documents](related-documents.md) | Documents related to a share class, fund, sub-fund or asset manager |
+| [Asset managers](endpoints/asset-managers.md) | List of asset managers that you have access to |
+| [NAVs](endpoints/navs.md) | Allows access to NAV values |
+| [Related documents](endpoints/related-documents.md) | Documents related to a share class, fund, sub-fund or asset manager |
 
 ## Paging
 
