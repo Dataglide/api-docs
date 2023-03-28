@@ -1,9 +1,11 @@
 # Fetching an authorisation token
 
+The following Javascript code should write an authorisation token (and expiry date/time) to the console.
+
 ```
 const credentials = {
   apiId: "<your apiId>",
-  apiSecretKey: "<your secret key?",
+  apiSecretKey: "<your secret key>",
 };
 
 fetch("https://api.dataglide.co/api/v1.0/auth/token", {
@@ -20,4 +22,4 @@ fetch("https://api.dataglide.co/api/v1.0/auth/token", {
   });
   ```
 
-  This code should log an authorisation token to the console.
+  
