@@ -50,6 +50,7 @@ Endpoints will return a ```401``` status code if the authorisation token provide
 | Subject | Description |
 | ------- | ----------- |
 | [Asset managers](endpoints/asset-managers.md) | List of asset managers that you have access to |
+| [Share classes](endpoints/share-classes.md) | Access to share class information |
 | [NAVs](endpoints/navs.md) | Allows access to NAV values |
 | [Related documents](endpoints/related-documents.md) | Documents related to a share class, fund, sub-fund or asset manager |
 
