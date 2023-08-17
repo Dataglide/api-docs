@@ -33,14 +33,11 @@ A typical response will look like this:
                     "msr_yld7de": "-0.0093",
                     "val_nav_date": "2021-12-02"
                 }
-            },
-            "relationships": {
-                "shareClass": {
-                    "links": {
-                        "related": "<url to share class endpoint>"
-                    }
-                }
             }
         },
         ....
  ```
+
+# Get all NAVs for a specific share class
+
+```[GET]/ShareClasses/{shareClassId}/NAVs```
