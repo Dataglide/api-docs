@@ -1,10 +1,16 @@
 # NAVs
 
-# Getting recent NAVs for an asset manager
+## Getting recent NAVs for an asset manager
 
 The following endpoint returns a list of NAVs that have been added or modified since the specified date/time. The date/time can only be 14 days in the past.
 
 ```[GET]/AssetManagers/{assetManagerId}/NAVs/ModifiedSince/{date}/```
+
+## Get all NAVs for a specific share class
+
+```[GET]/ShareClasses/{shareClassId}/NAVs```
+
+## Typical NAV response
 
 A typical response will look like this:
 
@@ -38,6 +44,4 @@ A typical response will look like this:
         ....
  ```
 
-# Get all NAVs for a specific share class
 
-```[GET]/ShareClasses/{shareClassId}/NAVs```
